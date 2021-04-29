@@ -28,7 +28,7 @@ class Console_Bank {
         mainMenu();
       } else if (input_pin == 0) {
         print(
-            '- Card ejected, please take your card\n- Thank You for using this ATM! :)');
+            '-  Card ejected, please take your card\n- Thank You for using this ATM! :)');
       } else {
         print("- Wrong pin, please check 'user_pin' and try again.\n");
         bankLogin();
